@@ -1,7 +1,17 @@
 # truffle-boilerplate
 
+## installation:
+
+npm i
+npx truffle init
+
+## usage
+
+open simulation: `npx truffle develop`  
 compile: `truffle develop`, `compile`  
-migrate: `migrate --network ropsten`
+deploy to Ropsten: `migrate --network ropsten`  
+deploy to Ganache: `migrate --network development`
+`var i = await Migrations.deployed()`
 
 # Starting migrations...
 
